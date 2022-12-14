@@ -1,0 +1,12 @@
+C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.Shared\bin\Debug\net6.0\AspNetIdentityDemo.Shared.deps.json
+C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.Shared\bin\Debug\net6.0\AspNetIdentityDemo.Shared.dll
+C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.Shared\bin\Debug\net6.0\AspNetIdentityDemo.Shared.pdb
+C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.Shared\obj\Debug\net6.0\AspNetIdentityDemo.Shared.csproj.AssemblyReference.cache
+C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.Shared\obj\Debug\net6.0\AspNetIdentityDemo.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.Shared\obj\Debug\net6.0\AspNetIdentityDemo.Shared.AssemblyInfoInputs.cache
+C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.Shared\obj\Debug\net6.0\AspNetIdentityDemo.Shared.AssemblyInfo.cs
+C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.Shared\obj\Debug\net6.0\AspNetIdentityDemo.Shared.csproj.CoreCompileInputs.cache
+C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.Shared\obj\Debug\net6.0\AspNetIdentityDemo.Shared.dll
+C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.Shared\obj\Debug\net6.0\refint\AspNetIdentityDemo.Shared.dll
+C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.Shared\obj\Debug\net6.0\AspNetIdentityDemo.Shared.pdb
+C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.Shared\obj\Debug\net6.0\ref\AspNetIdentityDemo.Shared.dll

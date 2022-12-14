@@ -1,0 +1,5 @@
+C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.Shared\obj\Debug\netcoreapp2.0\AspNetIdentityDemo.Shared.csproj.AssemblyReference.cache
+C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.Shared\obj\Debug\netcoreapp2.0\AspNetIdentityDemo.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.Shared\obj\Debug\netcoreapp2.0\AspNetIdentityDemo.Shared.AssemblyInfoInputs.cache
+C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.Shared\obj\Debug\netcoreapp2.0\AspNetIdentityDemo.Shared.AssemblyInfo.cs
+C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.Shared\obj\Debug\netcoreapp2.0\AspNetIdentityDemo.Shared.csproj.CoreCompileInputs.cache

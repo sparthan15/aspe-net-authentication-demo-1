@@ -43,3 +43,13 @@ C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.Client\obj\x64
 C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.Client\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.Client\obj\x64\Debug\ProjectArchitectures.txt
 C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.Client\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637935202560000000.json
+C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.Client\bin\x64\Debug\Newtonsoft.Json.dll
+C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.Client\bin\x64\Debug\RegisterWindow.xbf
+C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.Client\bin\x64\Debug\AspNetIdentityDemo.Share.dll
+C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.Client\bin\x64\Debug\AspNetIdentityDemo.Share.pdb
+C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.Client\bin\x64\Debug\AspNetIdentityDemo.Share.pri
+C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.Client\obj\x64\Debug\RegisterWindow.g.i.cs
+C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.Client\obj\x64\Debug\RegisterWindow.g.cs
+C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.Client\obj\x64\Debug\RegisterWindow.xaml
+C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.Client\obj\x64\Debug\RegisterWindow.xbf
+C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.Client\obj\x64\Debug\AspNetIdentityDemo.Share.pri.xml

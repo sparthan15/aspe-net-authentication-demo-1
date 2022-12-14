@@ -38,7 +38,7 @@ builder.Services.AddAuthentication(auth =>
         ValidIssuer = "www.foo.com",
         RequireExpirationTime = true,
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("This is the key we will use  in the encryption")),
-        ValidateIssuerSigningKey=true,
+        ValidateIssuerSigningKey = true,
     };
 });
 

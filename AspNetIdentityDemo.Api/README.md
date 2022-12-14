@@ -7,3 +7,5 @@ a connection was successfully established with the server, but then an error occ
 Búsqueda con cámara
 Then please add Encrypt=false to the DefaultConnection string
 https://stackoverflow.com/questions/17615260/the-certificate-chain-was-issued-by-an-authority-that-is-not-trusted-when-conn
+
+In order to make things works, the AspNetIdentityDemo.Share was created as Class Library(Universal..)

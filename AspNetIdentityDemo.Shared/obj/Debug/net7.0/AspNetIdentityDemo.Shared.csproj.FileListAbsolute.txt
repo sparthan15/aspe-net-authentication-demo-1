@@ -10,5 +10,3 @@ C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.Shared\obj\Deb
 C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.Shared\obj\Debug\net7.0\refint\AspNetIdentityDemo.Shared.dll
 C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.Shared\obj\Debug\net7.0\AspNetIdentityDemo.Shared.pdb
 C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.Shared\obj\Debug\net7.0\ref\AspNetIdentityDemo.Shared.dll
-C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.Shared\bin\Debug\net7.0\AspNetIdentityDemo.Shared.runtimeconfig.json
-C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.Shared\obj\Debug\net7.0\AspNetIdentityDemo.Shared.genruntimeconfig.cache
