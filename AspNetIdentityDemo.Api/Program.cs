@@ -1,4 +1,5 @@
 using AspNetIdentityDemo.Api.Models;
+using AspNetIdentityDemo.Api.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -40,6 +41,8 @@ builder.Services.AddAuthentication(auth =>
         ValidateIssuerSigningKey=true,
     };
 });
+
+builder.Services.AddScoped<IUserService, UserService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

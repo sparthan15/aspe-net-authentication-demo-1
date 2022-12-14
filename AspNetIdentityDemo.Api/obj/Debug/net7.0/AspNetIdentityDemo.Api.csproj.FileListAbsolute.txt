@@ -80,3 +80,5 @@ C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.Api\obj\Debug\
 C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.Api\obj\Debug\net7.0\AspNetIdentityDemo.Api.pdb
 C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.Api\obj\Debug\net7.0\AspNetIdentityDemo.Api.genruntimeconfig.cache
 C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.Api\obj\Debug\net7.0\ref\AspNetIdentityDemo.Api.dll
+C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.Api\bin\Debug\net7.0\AspNetIdentityDemo.Shared.dll
+C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.Api\bin\Debug\net7.0\AspNetIdentityDemo.Shared.pdb

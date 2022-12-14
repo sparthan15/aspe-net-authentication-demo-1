@@ -7,7 +7,7 @@ namespace AspNetIdentityDemo.Api.Services
 {
     public interface IUserService
     {
-       Task<UserManagerResponse> RegisterUserAsync(RegisterViewModel model);
+        Task<UserManagerResponse> RegisterUserAsync(RegisterViewModel model);
     }
 
     public class UserService : IUserService
@@ -54,7 +54,8 @@ namespace AspNetIdentityDemo.Api.Services
             {
                 Message = "User did not create",
                 IsSuccess = false,
-                Errors = result.Errors.Select(e => e.Description);
+                Errors = result.Errors.Select(e => e.Description)
+            };
         }
     }
 }
