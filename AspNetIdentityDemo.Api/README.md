@@ -9,3 +9,11 @@ Then please add Encrypt=false to the DefaultConnection string
 https://stackoverflow.com/questions/17615260/the-certificate-chain-was-issued-by-an-authority-that-is-not-trusted-when-conn
 
 In order to make things works, the AspNetIdentityDemo.Share was created as Class Library(Universal..)
+
+- It was not able to reference the library for some issues, one is that the Shared libraries to be referenced
+in the UWP was needed to be Library(Universal), not a .NET standar library, so that it could not be
+referenced in .Api due to incompatibilities issue. So, it was needed to duplicate the request/response objects
+into a Dtos folder
+
+- remove un-necessary dependencies
+https://learn.microsoft.com/en-us/visualstudio/ide/reference/remove-unused-references?view=vs-2022

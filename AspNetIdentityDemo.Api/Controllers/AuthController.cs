@@ -1,7 +1,8 @@
-﻿using AspNetIdentityDemo.Api.Services;
-using AspNetIdentityDemo.Shared;
+﻿using AspNetIdentityDemo.Api.Dtos;
+using AspNetIdentityDemo.Api.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using RegisterViewModel = AspNetIdentityDemo.Api.Dtos.RegisterViewModel;
 
 namespace AspNetIdentityDemo.Api.Controllers
 {

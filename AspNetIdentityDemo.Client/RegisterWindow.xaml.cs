@@ -46,7 +46,7 @@ namespace AspNetIdentityDemo.Client
             var jsonData = JsonConvert.SerializeObject(model);
 
             var content = new StringContent(jsonData, Encoding.UTF8, "Application/Json");
-            var response = await client.PostAsync("https://localhost:7023/api/Auth/Register", content);
+            var response = await client.PostAsync("http://localhost:2994/api/Auth/Register", content);
             var responseBody = await response.Content.ReadAsStringAsync();
                 
             var responseObject = JsonConvert.DeserializeObject<UserManagerResponse>(responseBody);
