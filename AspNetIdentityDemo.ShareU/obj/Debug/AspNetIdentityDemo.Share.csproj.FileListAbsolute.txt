@@ -1,7 +1,12 @@
+C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.ShareU\bin\Debug\AspNetIdentityDemo.Share.dll
+C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.ShareU\bin\Debug\AspNetIdentityDemo.Share.pdb
+C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.ShareU\bin\Debug\AspNetIdentityDemo.Share.pri
 C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.ShareU\bin\Debug\Microsoft.UI.Xaml.Markup.winmd
 C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.ShareU\obj\Debug\AspNetIdentityDemo.Share.csproj.AssemblyReference.cache
 C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.ShareU\obj\Debug\AspNetIdentityDemo.Share.csproj.CoreCompileInputs.cache
 C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.ShareU\obj\Debug\AspNetIdentityDemo.Share.csproj.CopyComplete
+C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.ShareU\obj\Debug\AspNetIdentityDemo.Share.dll
+C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.ShareU\obj\Debug\AspNetIdentityDemo.Share.pdb
 C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.ShareU\obj\Debug\priconfig.xml
 C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.ShareU\obj\Debug\priconfig.xml.intermediate
 C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.ShareU\obj\Debug\unfiltered.layout.resfiles
@@ -17,8 +22,3 @@ C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.ShareU\obj\Deb
 C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.ShareU\obj\Debug\qualifiers.txt
 C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.ShareU\obj\Debug\qualifiers.txt.intermediate
 C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.ShareU\obj\Debug\MultipleQualifiersPerDimensionFound.txt
-C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.ShareU\bin\Debug\AspNetIdentityDemo.Share.dll
-C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.ShareU\bin\Debug\AspNetIdentityDemo.Share.pdb
-C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.ShareU\bin\Debug\AspNetIdentityDemo.Share.pri
-C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.ShareU\obj\Debug\AspNetIdentityDemo.Share.dll
-C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.ShareU\obj\Debug\AspNetIdentityDemo.Share.pdb

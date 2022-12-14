@@ -12,8 +12,8 @@
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Width="300">
             <TextBlock Text="Create new account" FontSize="35" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="3"/>
             <TextBox x:Name="txtEmail"  Margin="2" PlaceholderText="Email"/>
-            <TextBox x:Name="txtPassword"  Margin="2" PlaceholderText="Password"/>
-            <TextBox x:Name="txtConfirmPassword"  Margin="2" PlaceholderText="txtConfirmPassword"/>
+            <PasswordBox x:Name="txtPassword"  Margin="2" PlaceholderText="Password"/>
+            <PasswordBox x:Name="txtConfirmPassword"  Margin="2" PlaceholderText="txtConfirmPassword"/>
             <Button x:Name="BtnRegister" Margin="2" Content="Create account" HorizontalAlignment="Center" Click="BtnRegister_Click"/>
         </StackPanel>
     </Grid>

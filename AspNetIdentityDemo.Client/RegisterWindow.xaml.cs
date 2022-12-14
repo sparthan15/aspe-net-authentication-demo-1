@@ -39,28 +39,37 @@ namespace AspNetIdentityDemo.Client
             var model = new RegisterViewModel
             {
                 Email = txtEmail.Text,
-                Password = txtPassword.Text,
-                ConfirmPassword = txtConfirmPassword.Text,
+                Password = txtPassword.Password,
+                ConfirmPassword = txtConfirmPassword.Password,
             };
 
             var jsonData = JsonConvert.SerializeObject(model);
 
-            var content = new StringContent(jsonData, Encoding.UTF8, "Application/Json");
-            var response = await client.PostAsync("http://localhost:2994/api/Auth/Register", content);
-            var responseBody = await response.Content.ReadAsStringAsync();
-                
-            var responseObject = JsonConvert.DeserializeObject<UserManagerResponse>(responseBody);
-
-            if (responseObject.IsSuccess)
+            var content = new StringContent(jsonData, Encoding.UTF8, "application/json");
+            var response = await client.PostAsync("http://localhost:5000/api/auth/register", content);
+            if (response.StatusCode == System.Net.HttpStatusCode.BadRequest)
             {
-                var dialog = new MessageDialog("Your account has been created successfuly!");
+                System.Diagnostics.Debug.WriteLine(response.Content);
+                var dialog = new MessageDialog("Oops, bad request connecting to the server!");
                 await dialog.ShowAsync();
             }
             else
             {
-                var dialog = new MessageDialog(responseObject.Errors.FirstOrDefault());
-                await dialog.ShowAsync();
+                var responseBody = await response.Content.ReadAsStringAsync();
 
+                var responseObject = JsonConvert.DeserializeObject<UserManagerResponse>(responseBody);
+
+                if (responseObject.IsSuccess)
+                {
+                    var dialog = new MessageDialog("Your account has been created successfuly!");
+                    await dialog.ShowAsync();
+                }
+                else
+                {
+                    var dialog = new MessageDialog(responseObject.Errors.FirstOrDefault());
+                    await dialog.ShowAsync();
+
+                }
             }
 
         }
