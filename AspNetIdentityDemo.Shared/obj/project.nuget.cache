@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DrGOFA6e3kJDQTx+utsE9tJwxBrWpugiB4mBTt3UXDABNzSvdy55ZvzCQSqOV84iU7si9sjaYCr6Mw3QCA/30A==",
+  "dgSpecHash": "zyBpF6j2TQu/4Lu0T9xDj1Eov4F0/hnyYKs28ftofpoUhSe2zOtgpixCBAl2hjHKZBJomZzbr2FjF5q2O++/bw==",
   "success": true,
   "projectFilePath": "C:\\Users\\carlo\\source\\repos\\AspNetIdentityDemo\\AspNetIdentityDemo.Shared\\AspNetIdentityDemo.Shared.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\carlo\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.17763.27\\microsoft.windows.sdk.net.ref.10.0.17763.27.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

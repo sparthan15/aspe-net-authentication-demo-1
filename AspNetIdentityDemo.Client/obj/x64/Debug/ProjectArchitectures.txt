@@ -1,2 +1,2 @@
 C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.Client\AspNetIdentityDemo.Client.csproj;x64
-C:\Users\carlo\source\repos\AspNetIdentityDemo\AspNetIdentityDemo.ShareU\AspNetIdentityDemo.Share.csproj;neutral
+C:\Users\carlo\source\repos\AspNetIdentityDemo\ClassLibrary1\ClassLibrary1.csproj;neutral

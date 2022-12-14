@@ -1,4 +1,4 @@
-﻿using AspNetIdentityDemo.Shared;
+﻿using AspNetIdentityDemo.Dtos;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore.Metadata.Conventions;
 using System.Net.WebSockets;

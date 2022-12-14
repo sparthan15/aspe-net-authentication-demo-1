@@ -1,6 +1,6 @@
 ﻿
 using AspNetIdentityDemo.Api.Services;
-using AspNetIdentityDemo.Shared;
+using AspNetIdentityDemo.Dtos;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 

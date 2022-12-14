@@ -33,8 +33,8 @@
         "frameworks": {
           "uap10.0.17763": {
             "projectReferences": {
-              "C:\\Users\\carlo\\source\\repos\\AspNetIdentityDemo\\AspNetIdentityDemo.ShareU\\AspNetIdentityDemo.Share.csproj": {
-                "projectPath": "C:\\Users\\carlo\\source\\repos\\AspNetIdentityDemo\\AspNetIdentityDemo.ShareU\\AspNetIdentityDemo.Share.csproj"
+              "C:\\Users\\carlo\\source\\repos\\AspNetIdentityDemo\\ClassLibrary1\\ClassLibrary1.csproj": {
+                "projectPath": "C:\\Users\\carlo\\source\\repos\\AspNetIdentityDemo\\ClassLibrary1\\ClassLibrary1.csproj"
               }
             }
           }
@@ -43,6 +43,10 @@
       "frameworks": {
         "uap10.0.17763": {
           "dependencies": {
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "Microsoft.NETCore.UniversalWindowsPlatform": {
               "target": "Package",
               "version": "[6.2.14, )"
@@ -50,6 +54,10 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.2, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[7.0.1, )"
             }
           },
           "imports": [
@@ -83,14 +91,14 @@
         }
       }
     },
-    "C:\\Users\\carlo\\source\\repos\\AspNetIdentityDemo\\AspNetIdentityDemo.ShareU\\AspNetIdentityDemo.Share.csproj": {
+    "C:\\Users\\carlo\\source\\repos\\AspNetIdentityDemo\\ClassLibrary1\\ClassLibrary1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\carlo\\source\\repos\\AspNetIdentityDemo\\AspNetIdentityDemo.ShareU\\AspNetIdentityDemo.Share.csproj",
-        "projectName": "AspNetIdentityDemo.Share",
-        "projectPath": "C:\\Users\\carlo\\source\\repos\\AspNetIdentityDemo\\AspNetIdentityDemo.ShareU\\AspNetIdentityDemo.Share.csproj",
+        "projectUniqueName": "C:\\Users\\carlo\\source\\repos\\AspNetIdentityDemo\\ClassLibrary1\\ClassLibrary1.csproj",
+        "projectName": "ClassLibrary1",
+        "projectPath": "C:\\Users\\carlo\\source\\repos\\AspNetIdentityDemo\\ClassLibrary1\\ClassLibrary1.csproj",
         "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\carlo\\source\\repos\\AspNetIdentityDemo\\AspNetIdentityDemo.ShareU\\obj\\",
+        "outputPath": "C:\\Users\\carlo\\source\\repos\\AspNetIdentityDemo\\ClassLibrary1\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [

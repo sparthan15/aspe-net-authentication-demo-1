@@ -1234,16 +1234,6 @@
             "rid": "win"
           }
         }
-      },
-      "AspNetIdentityDemo.Share/1.0.0": {
-        "type": "project",
-        "framework": "Unsupported,Version=v0.0",
-        "compile": {
-          "bin/placeholder/AspNetIdentityDemo.Share.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/AspNetIdentityDemo.Share.dll": {}
-        }
       }
     }
   },
@@ -3835,16 +3825,10 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-    },
-    "AspNetIdentityDemo.Share/1.0.0": {
-      "type": "project",
-      "path": "../AspNetIdentityDemo.ShareU/AspNetIdentityDemo.Share.csproj",
-      "msbuildProject": "../AspNetIdentityDemo.ShareU/AspNetIdentityDemo.Share.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "AspNetIdentityDemo.Share >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 7.0.1",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 7.0.1",
       "Microsoft.AspNetCore.OpenApi >= 7.0.0",
@@ -3883,11 +3867,7 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {
-            "C:\\Users\\carlo\\source\\repos\\AspNetIdentityDemo\\AspNetIdentityDemo.ShareU\\AspNetIdentityDemo.Share.csproj": {
-              "projectPath": "C:\\Users\\carlo\\source\\repos\\AspNetIdentityDemo\\AspNetIdentityDemo.ShareU\\AspNetIdentityDemo.Share.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -3943,16 +3923,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1201",
-      "level": "Error",
-      "message": "Project AspNetIdentityDemo.Share is not compatible with net7.0 (.NETCoreApp,Version=v7.0). Project AspNetIdentityDemo.Share supports: uap10.0.17763 (UAP,Version=v10.0.17763)",
-      "libraryId": "AspNetIdentityDemo.Share",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    }
-  ]
+  }
 }

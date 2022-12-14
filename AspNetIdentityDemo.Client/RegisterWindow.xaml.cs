@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Runtime.InteropServices.WindowsRuntime;
 using System.Text;
 using Windows.Foundation;
@@ -22,11 +23,12 @@ using Windows.UI.Xaml.Navigation;
 
 namespace AspNetIdentityDemo.Client
 {
-    /// <summary>
-    /// An empty page that can be used on its own or navigated to within a Frame.
-    /// </summary>
+
     public sealed partial class RegisterWindow : Page
     {
+        public readonly HttpClient client = new HttpClient();
+
+
         public RegisterWindow()
         {
             this.InitializeComponent();
@@ -34,43 +36,33 @@ namespace AspNetIdentityDemo.Client
 
         private async void BtnRegister_Click(object sender, RoutedEventArgs e)
         {
-            HttpClient client = new HttpClient();
-
-            var model = new RegisterViewModel
+            RegisterViewModel model = new RegisterViewModel
             {
                 Email = txtEmail.Text,
                 Password = txtPassword.Password,
                 ConfirmPassword = txtConfirmPassword.Password,
             };
 
-            var jsonData = JsonConvert.SerializeObject(model);
-
+            var jsonData = JsonConvert.SerializeObject(model.ToString());
             var content = new StringContent(jsonData, Encoding.UTF8, "application/json");
-            var response = await client.PostAsync("http://localhost:5000/api/auth/register", content);
-            if (response.StatusCode == System.Net.HttpStatusCode.BadRequest)
+            var response = await client.PostAsync("http://localhost:2994/api/auth/register", content);
+
+            var responseBody = await response.Content.ReadAsStringAsync();
+
+            var responseObject = JsonConvert.DeserializeObject<UserManagerResponse>(responseBody);
+
+            if (responseObject.IsSuccess)
             {
-                System.Diagnostics.Debug.WriteLine(response.Content);
-                var dialog = new MessageDialog("Oops, bad request connecting to the server!");
+                var dialog = new MessageDialog("Your account has been created successfuly!");
                 await dialog.ShowAsync();
             }
             else
             {
-                var responseBody = await response.Content.ReadAsStringAsync();
+                var dialog = new MessageDialog(responseObject.Errors.FirstOrDefault());
+                await dialog.ShowAsync();
 
-                var responseObject = JsonConvert.DeserializeObject<UserManagerResponse>(responseBody);
-
-                if (responseObject.IsSuccess)
-                {
-                    var dialog = new MessageDialog("Your account has been created successfuly!");
-                    await dialog.ShowAsync();
-                }
-                else
-                {
-                    var dialog = new MessageDialog(responseObject.Errors.FirstOrDefault());
-                    await dialog.ShowAsync();
-
-                }
             }
+
 
         }
 

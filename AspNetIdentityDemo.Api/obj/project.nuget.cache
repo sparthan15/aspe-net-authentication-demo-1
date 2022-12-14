@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "9gR0ATtQVXOQGuhykO4T/5pkvl3F67z3YywlvKhjrYTfQgofm/8Kxbg3+lhiFS3tlwnCP541U4cmo43gGaDXUg==",
-  "success": false,
+  "dgSpecHash": "uqZpgdEkgTdLAcc8j95/d7V+9Kh9wWXlKc4IKRQSw+i1CRqguxfG48xc+e8/gyMlf4wmVSjHvtEnXwbjBA94iQ==",
+  "success": true,
   "projectFilePath": "C:\\Users\\carlo\\source\\repos\\AspNetIdentityDemo\\AspNetIdentityDemo.Api\\AspNetIdentityDemo.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\carlo\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
@@ -79,15 +79,5 @@
     "C:\\Users\\carlo\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1201",
-      "level": "Error",
-      "message": "Project AspNetIdentityDemo.Share is not compatible with net7.0 (.NETCoreApp,Version=v7.0). Project AspNetIdentityDemo.Share supports: uap10.0.17763 (UAP,Version=v10.0.17763)",
-      "libraryId": "AspNetIdentityDemo.Share",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    }
-  ]
+  "logs": []
 }
