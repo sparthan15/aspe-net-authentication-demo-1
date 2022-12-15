@@ -40,10 +40,11 @@ namespace AspNetIdentityDemo.Client
             {
                 Email = txtEmail.Text,
                 Password = txtPassword.Password,
-                ConfirmPassword = txtConfirmPassword.Password,
+                ConfirmPassword = txtConfirmPassword.Password
             };
 
-            var jsonData = JsonConvert.SerializeObject(model.ToString());
+            var jsonData = JsonConvert.SerializeObject(model).ToString();
+          
             var content = new StringContent(jsonData, Encoding.UTF8, "application/json");
             var response = await client.PostAsync("http://localhost:2994/api/auth/register", content);
 
