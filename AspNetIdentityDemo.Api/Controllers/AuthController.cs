@@ -1,7 +1,9 @@
 ﻿
+using AspNetIdentityDemo.Api.Dtos;
 using AspNetIdentityDemo.Api.Services;
 using AspNetIdentityDemo.Dtos;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AspNetIdentityDemo.Api.Controllers
@@ -18,11 +20,11 @@ namespace AspNetIdentityDemo.Api.Controllers
         }
         //api/auth/register
         [HttpPost("Register")]
-        public async Task<ActionResult> RegisterAsync(RegisterViewModel model)
+        public async Task<ActionResult> RegisterAsync([FromBody] RegisterViewModel model)
         {
             if (ModelState.IsValid)
             {
-               var result = await _userService.RegisterUserAsync(model);
+                var result = await _userService.RegisterUserAsync(model);
                 if (result.IsSuccess)
                 {
                     return Ok(result);
@@ -33,6 +35,23 @@ namespace AspNetIdentityDemo.Api.Controllers
                 }
             }
             return BadRequest("Some properties are not valid!");
+        }
+
+
+        //api/auth/login
+        [HttpPost("Login")]
+        public async Task<IActionResult> LoginAsync([FromBody] LoginViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                var result = await _userService.LoginUserAsync(model);
+                if (result.IsSuccess)
+                {
+                    return Ok(result);
+                }
+                return BadRequest(result);
+            }
+            return BadRequest("Some properties are not valid");
         }
     }
 }

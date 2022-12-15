@@ -35,9 +35,10 @@ builder.Services.AddAuthentication(auth =>
     {
         ValidateIssuer = true,
         ValidateAudience = true,
-        ValidIssuer = "www.foo.com",
+        ValidIssuer = builder.Configuration.GetValue<String>("AuthSettings:Issuer"),
+        ValidAudience = builder.Configuration.GetValue<String>("AuthSettings:Audience"),
         RequireExpirationTime = true,
-        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("This is the key we will use  in the encryption")),
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration.GetValue<String>("AuthSettings:Key"))),
         ValidateIssuerSigningKey = true,
     };
 });
@@ -53,7 +54,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
