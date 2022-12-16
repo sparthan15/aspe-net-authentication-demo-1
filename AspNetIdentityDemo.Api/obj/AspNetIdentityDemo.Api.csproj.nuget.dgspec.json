@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\carlo\\source\\repos\\AspNetIdentityDemo\\AspNetIdentityDemo.Api\\AspNetIdentityDemo.Api.csproj": {}
+    "C:\\Users\\CarlosGamboa\\Development\\training\\back-end\\csharp\\aspe-net-authentication-demo-1\\AspNetIdentityDemo.Api\\AspNetIdentityDemo.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\carlo\\source\\repos\\AspNetIdentityDemo\\AspNetIdentityDemo.Api\\AspNetIdentityDemo.Api.csproj": {
+    "C:\\Users\\CarlosGamboa\\Development\\training\\back-end\\csharp\\aspe-net-authentication-demo-1\\AspNetIdentityDemo.Api\\AspNetIdentityDemo.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\carlo\\source\\repos\\AspNetIdentityDemo\\AspNetIdentityDemo.Api\\AspNetIdentityDemo.Api.csproj",
+        "projectUniqueName": "C:\\Users\\CarlosGamboa\\Development\\training\\back-end\\csharp\\aspe-net-authentication-demo-1\\AspNetIdentityDemo.Api\\AspNetIdentityDemo.Api.csproj",
         "projectName": "AspNetIdentityDemo.Api",
-        "projectPath": "C:\\Users\\carlo\\source\\repos\\AspNetIdentityDemo\\AspNetIdentityDemo.Api\\AspNetIdentityDemo.Api.csproj",
-        "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\carlo\\source\\repos\\AspNetIdentityDemo\\AspNetIdentityDemo.Api\\obj\\",
+        "projectPath": "C:\\Users\\CarlosGamboa\\Development\\training\\back-end\\csharp\\aspe-net-authentication-demo-1\\AspNetIdentityDemo.Api\\AspNetIdentityDemo.Api.csproj",
+        "packagesPath": "C:\\Users\\CarlosGamboa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CarlosGamboa\\Development\\training\\back-end\\csharp\\aspe-net-authentication-demo-1\\AspNetIdentityDemo.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\CarlosGamboa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -54,9 +54,19 @@
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.1, )"
             },

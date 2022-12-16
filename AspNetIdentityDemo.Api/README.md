@@ -26,3 +26,8 @@ into a Dtos folder
 https://learn.microsoft.com/en-us/visualstudio/ide/reference/remove-unused-references?view=vs-2022
 
 - Onnce i pressed Build/Clean XXXXX.Api ISS started to fail...
+
+### Others commands
+sql terminal:
+ sqlcmd -S DESKTOP-PKJ7OKM\SQLEXPRESS01 -E
+sql express local connection string Server=localhost\SQLEXPRESS01;Database=master;Trusted_Connection=True;

@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "IhOGP2mcq3k3rhOKTmKJdHIezMoh8cB1+q6qwbTYw2XNws5Y6UfRArcYZr2uLguwCYoTqYGrfFVl9Xxgti8Sdg==",
+  "dgSpecHash": "ZnyDVtJ/o7+fqb+po5ohZuIFhIZcaVTpOxbLpVRzgUhkB5IIwF2DTDyZFgldHGjPXsMBCMm48jAlLTB4exebvA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\carlo\\source\\repos\\AspNetIdentityDemo\\ClassLibrary1\\ClassLibrary1.csproj",
+  "projectFilePath": "C:\\Users\\CarlosGamboa\\Development\\training\\back-end\\csharp\\aspe-net-authentication-demo-1\\ClassLibrary1\\ClassLibrary1.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.native.compiler\\2.2.12-rel-31116-00\\microsoft.net.native.compiler.2.2.12-rel-31116-00.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.uwpcoreruntimesdk\\2.2.14\\microsoft.net.uwpcoreruntimesdk.2.2.14.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.netcore.platforms\\2.1.0\\microsoft.netcore.platforms.2.1.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.netcore.universalwindowsplatform\\6.2.14\\microsoft.netcore.universalwindowsplatform.6.2.14.nupkg.sha512",
-    "C:\\Users\\carlo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform\\6.2.14\\runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform.6.2.14.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\runtime.win10-arm.microsoft.net.native.compiler\\2.2.12-rel-31116-00\\runtime.win10-arm.microsoft.net.native.compiler.2.2.12-rel-31116-00.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\runtime.win10-arm.microsoft.net.native.sharedlibrary\\2.2.8-rel-31116-00\\runtime.win10-arm.microsoft.net.native.sharedlibrary.2.2.8-rel-31116-00.nupkg.sha512",

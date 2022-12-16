@@ -52,15 +52,17 @@ namespace AspNetIdentityDemo.Api.Services
                 new Claim("Email", model.Email),
                 new Claim(ClaimTypes.NameIdentifier, user.Id)
             };
+            //This is the key we will use  in the encryption
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["AuthSettings:Key"]));
+
             var token = new JwtSecurityToken(
                 issuer: _configuration["AuthSettings:Issuer"],
-                audience: _configuration["AuhtSettings:Audience"],
+                audience: _configuration["AuthSettings:Audience"],
                 claims: claims,
                 expires: DateTime.Now.AddDays(30),
                 signingCredentials: new SigningCredentials(key, SecurityAlgorithms.HmacSha256)
                 );
-            string  tokenAsString = new JwtSecurityTokenHandler().WriteToken(token);
+            string tokenAsString = new JwtSecurityTokenHandler().WriteToken(token);
             return new UserManagerResponse
             {
                 Message = tokenAsString,
