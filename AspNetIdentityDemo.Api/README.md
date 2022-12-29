@@ -7,6 +7,8 @@ Since I add the Library project(Universal window) as reference for the API proje
 issuing in the IDE, i completely ignored it. It turns out that, its occurred to me that, i decided to 
 remove that dependency, and the error... has gone. Conclusion: WebAPI projects dont fit well with
 windows libraries... 
+- MOcking
+https://softchris.github.io/pages/dotnet-moq.html#creating-our-first-mock
 
 ### Issues
 when errors using Add-Migration: 
